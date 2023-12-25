@@ -9,15 +9,15 @@ public class Reverse
 		String word = args[0];
 		int leng = word.length();
 		int mid = 0;
-		int middle = 0;
+		int middle = (leng/2)-1;
 		for (int i=leng-1; i>=0; i--)
 		{
-			if (mid == i)
-			{
-				middle = i;
-			}
+			//if (middle == i)
+			//{
+				//middle = i;
+			//}
 			System.out.print(word.charAt(i));
-			mid++;
+			//mid++;
 		}
 		System.out.println();
 		System.out.println("The middle character is " + word.charAt(middle));
