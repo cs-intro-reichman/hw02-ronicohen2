@@ -9,7 +9,7 @@ public class Reverse
 		String word = args[0];
 		int leng = word.length();
 		int mid = 0;
-		int middle = (leng/2)-1;
+		int middle = leng/2;
 		for (int i=leng-1; i>=0; i--)
 		{
 			//if (middle == i)
