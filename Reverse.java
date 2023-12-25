@@ -8,7 +8,7 @@ public class Reverse
 	{
 		String word = args[0];
 		int leng = word.length();
-		int mid = 1;
+		int mid = 0;
 		int middle = 0;
 		for (int i=leng-1; i>=0; i--)
 		{
@@ -20,6 +20,6 @@ public class Reverse
 			mid++;
 		}
 		System.out.println();
-		System.out.println("The middle character is :" + word.charAt(middle));
+		System.out.println("The middle character is " + word.charAt(middle));
 	}
 }
