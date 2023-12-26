@@ -9,11 +9,11 @@ public class DamkaBoard {
 		{
 			if ( i % 2 ==0 )
 			{
-				System.out.print("  ");
+				System.out.print(" ");
 			}
 			for (int z = 1; z <= x; z++)
 			{
-				System.out.print(" * ");
+				System.out.print(" *");
 			}
 			System.out.println(" ");
 		}
