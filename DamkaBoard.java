@@ -7,7 +7,7 @@ public class DamkaBoard {
 		int x = Integer.parseInt(args[0]); 
 		for (int i = 1; i <= x; i++)
 		{
-			if ( i % 2 ==0 )
+			if ( i % 2 == 0 )
 			{
 				System.out.print(" ");
 			}
@@ -16,6 +16,10 @@ public class DamkaBoard {
 				System.out.print("* ");
 			}
 			System.out.print("*");
+			if ( i % 2 != 0 )
+			{
+				System.out.print(" ");
+			}
 			System.out.println();
 		}
 	}
