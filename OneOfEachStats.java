@@ -48,13 +48,13 @@ public class OneOfEachStats
 			   {
 				 girl = true;
 				 countchild ++;
-				 System.out.print("g ");
+				 ///System.out.print("g ");
 			   }
 			   else 
 			   {
 				 boy = true;
 				 countchild ++;
-				 System.out.print("b ");
+				 ///System.out.print("b ");
 			   }
 			   if ((girl && boy) == true)
 			   {
@@ -72,8 +72,8 @@ public class OneOfEachStats
 			   }
 		    }
 		    
-		    System.out.println();
-		    System.out.println("You made it... and you now have " +countchild+ " children.");
+		    ///System.out.println();
+		    ///System.out.println("You made it... and you now have " +countchild+ " children.");
 		    girl = false;
 		    boy = false;
 		    sucsess = false;
