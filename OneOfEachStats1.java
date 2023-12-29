@@ -1,9 +1,4 @@
-/**
- *  Computes some statistics about families in which the parents decide 
- *  to have children until they have at least one child of each gender.
- *  The program expects to get one command-line argument: an int value
- * 	that determines how many families to simulate.
- */
+
 public class OneOfEachStats1 
 {
 	public static void main (String[] args) 
@@ -32,13 +27,13 @@ public class OneOfEachStats1
 			   {
 				 girl = true;
 				 countchild ++;
-				 System.out.print("g ");
+				 //System.out.print("g ");
 			   }
 			   else 
 			   {
 				 boy = true;
 				 countchild ++;
-				 System.out.print("b ");
+				 //System.out.print("b ");
 			   }
 			   if ((girl && boy) == true)
 			   {
@@ -56,8 +51,8 @@ public class OneOfEachStats1
 			   }
 		    }
 		    
-		    System.out.println();
-		    System.out.println("You made it... and you now have " +countchild+ " children.");
+		    //System.out.println();
+		    //System.out.println("You made it... and you now have " +countchild+ " children.");
 		    girl = false;
 		    boy = false;
 		    sucsess = false;
